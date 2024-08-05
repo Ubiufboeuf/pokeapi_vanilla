@@ -1,0 +1,40 @@
+.floatCard {
+  position: absolute;
+  right: 38px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 500px;
+  width: 340px;
+  background: rgb(16 16 16);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.floatCard, .floatCard * {
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid; */
+}
+
+#img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.floatCard > h1 {
+  font-size: 24px;
+}
+
+.floatCard h2 {
+  font-size: 16px;
+}
+
+.floatCard > .space {
+  width: 80%;
+  height: 2px;
+  background: rgb(255 255 255 / .87);
+}
